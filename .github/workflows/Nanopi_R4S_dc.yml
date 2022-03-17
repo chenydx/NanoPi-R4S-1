@@ -1,4 +1,4 @@
-name: NanoPi-R4S-Lite
+name: NanoPi-R4S-Lite_dc
 
 on: 
   release:
