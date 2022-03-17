@@ -1,12 +1,11 @@
 name: NanoPi-R4S-Lite
 
-on:
-  repository_dispatch:
-  workflow_dispatch:
-  #schedule:
-    #- cron: 0 17 * * *
-  # watch:
-  #   types: started
+on: 
+  release:
+    types: [published]
+
+  watch:
+    types: [started]
 
 env:
   REPO_URL: https://github.com/JoseCoW/lede
